@@ -139,7 +139,7 @@ I used `2D Nav` tab in rviz to manually point out to two different goals, one at
 
 ##### Navigation Goal Node (pick-objects)
 
-To test robot's capability to reach multiple goals, as specified by the program (and not manually), I created pick_objects package and specifically `pick_objects_test.cpp` function. This can be tested following script which launches turtlebot, AMCL, rviz and pick_objects node:
+To test robot's capability to reach multiple goals, as specified by the program (and not manually), I created pick_objects package. This can be tested following script which launches turtlebot, AMCL, rviz and pick_objects node:
 
 ```
 cd ~/catkin_ws/src/scripts
@@ -148,13 +148,13 @@ cd ~/catkin_ws/src/scripts
 
 ##### Virtual Objects Node (add-markers)
 
-To model a virtual object with markers in rviz, I created add_markers package and specifically `add_markers_test.cpp` function. This can be tested following script which launches turtlebot, AMCL, rviz and add_markers node:
+To model a virtual object with markers in rviz, I created add_markers package. This can be tested following script which launches turtlebot, AMCL, rviz and add_markers node:
 
 ```
 cd ~/catkin_ws/src/scripts
 ./add_markers.sh
 ```
-
+the marker will not move to drop off untill the topic `"/pickstatus"`  is publish something to it in order to convert from pickup to dropoff position
 
 
 ##### Home-Service-Robot package
