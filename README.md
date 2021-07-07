@@ -132,10 +132,7 @@ This will launch:
 * `amcl_demo.launch` to localize turtlebot
 * `view_navigation.launch` to observe map in rviz
 
-I used `2D Nav` tab in rviz to manually point out to two different goals, one at a time, and direct the robot to reach them and orient itself with respect to them. A sample image is shown below and the sample video can be found [here](https://youtu.be/DN2bRCeoVyI)
-
-![nav_sample](./images/nav_sample.jpg)
-*Fig.4: navigation-test sample*
+I used `2D Nav` tab in rviz to manually point out to two different goals, one at a time, and direct the robot to reach them and orient itself with respect to them.
 
 ##### Navigation Goal Node (pick-objects)
 
